@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.tolgee.io/cli-schema.json",
+  "projectId": 1,
+  "apiUrl": "",
+  "apiKey": "",
+  "format": "JSON_TOLGEE",
+  "patterns": ["./resources/js/**/*.{js,ts,vue}", "./**/*.php"],
+  "extractor": "./tolgee-extractors/tolgee-extractor.cjs",
+  "push": {
+    "filesTemplate": "./resources/lang-json/{languageTag}.json",
+    "language": ["en-GB"]
+  },
+  "pull": {
+    "path": "./resources/lang-json"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ai": {
+    "ai_assist": "Ai Assist"
+  },
+  "common": {
+    "hello_world": "hello_world"
+  },
+  "general": {
+    "description": "Descriere principală",
+    "name": "Nume și prenume",
+    "title": "Titlu",
+    "welcome_message": "Bine ați venit la aplicația noastră!"
+  },
+  "keyPath": "cale cheie",
+  "post_activity": {
+    "update_scheduled_at": "Actualizare programată la"
+  }
+}

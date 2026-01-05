@@ -1,0 +1,18 @@
+{
+  "ai": {
+    "ai_assist": "Ai Assist"
+  },
+  "common": {
+    "hello_world": "hallo_welt"
+  },
+  "general": {
+    "description": "Hauptbeschreibung",
+    "name": "Name",
+    "title": "Titel",
+    "welcome_message": "Willkommen bei unserer Bewerbung!"
+  },
+  "keyPath": "keyPath",
+  "post_activity": {
+    "update_scheduled_at": "Geplante Aktualisierung am"
+  }
+}

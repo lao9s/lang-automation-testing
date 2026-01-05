@@ -1,0 +1,29 @@
+name: Tag Production Translations
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tag-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Tolgee CLI
+        run: npm install -g @tolgee/cli
+
+      - name: Tag production keys
+        run: npm run tolgee:tag-production
+        env:
+          TOLGEE_API_KEY: ${{ secrets.TOLGEE_API_KEY }}
+          TOLGEE_API_URL: ${{ vars.TOLGEE_API_URL }}
+          TOLGEE_PROJECT_ID: ${{ vars.TOLGEE_PROJECT_ID }}

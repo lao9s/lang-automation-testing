@@ -1,0 +1,19 @@
+{
+  "ai": {
+    "ai_assist": "Ai Assist"
+  },
+  "common": {
+    "hello_world": "hello_world"
+  },
+  "general": {
+    "description": "General Description",
+    "name": "Name",
+    "title": "Title",
+    "welcome_message": "Welcome to our application!",
+    "people": "People"
+  },
+  "keyPath": "keyPath",
+  "post_activity": {
+    "update_scheduled_at": "Update Scheduled At"
+  }
+}
