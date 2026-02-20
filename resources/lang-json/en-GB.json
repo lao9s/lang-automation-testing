@@ -10,7 +10,8 @@
     "name": "Name",
     "title": "Title",
     "welcome_message": "Welcome to our application!",
-    "people": "People"
+    "people": "People",
+    "alo": "Alo"
   },
   "keyPath": "keyPath",
   "post_activity": {
