@@ -8,7 +8,7 @@
     "i18n:report": "vue-i18n-extract report --vueFiles './resources/js/**/*.?(js|vue)' --languageFiles './resources/lang-json/en-GB.json'",
     "i18n:check": "vue-i18n-extract report --ci --vueFiles './resources/js/**/*.?(js|vue)' --languageFiles './resources/lang-json/en-GB.json'",
     "i18n:php": "./scripts/check-php-translations.sh en-GB",
-    "tolgee:tag-draft": "./scripts/tag-branch-translations.sh",
+    "tolgee:tag-new-keys": "tolgee push -f KEEP --tag-new-keys draft:$(git branch --show-current)",
     "tolgee:tag-production": "./scripts/tag-production-translations.sh"
   }
 }

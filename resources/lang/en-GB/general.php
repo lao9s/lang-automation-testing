@@ -1,8 +1,11 @@
 <?php
 
 return [
-    'description' => 'Main Description',
+    'alo' => 'Alo',
+    'description' => 'General Description',
     'name' => 'Name',
+    'people' => 'People',
     'title' => 'Title',
     'welcome_message' => 'Welcome to our application!',
 ];
+

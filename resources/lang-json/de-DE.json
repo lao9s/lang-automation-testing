@@ -6,13 +6,20 @@
     "hello_world": "hallo_welt"
   },
   "general": {
+    "alo": "Alo",
     "description": "Hauptbeschreibung",
     "name": "Name",
+    "people": "Menschen",
     "title": "Titel",
     "welcome_message": "Willkommen bei unserer Bewerbung!"
   },
   "keyPath": "keyPath",
   "post_activity": {
     "update_scheduled_at": "Geplante Aktualisierung am"
+  },
+  "service": {
+    "mastodon": {
+      "description": "Mastodon ist ein freier, quelloffener Server für soziale Netzwerke, der auf ActivityPub basiert."
+    }
   }
 }
