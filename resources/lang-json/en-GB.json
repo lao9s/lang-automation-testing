@@ -6,15 +6,20 @@
     "hello_world": "hello_world"
   },
   "general": {
+    "alo": "Alo",
     "description": "General Description",
     "name": "Name",
-    "title": "Title",
-    "welcome_message": "Welcome to our application!",
     "people": "People",
-    "alo": "Alo"
+    "title": "Title",
+    "welcome_message": "Welcome to our application!"
   },
   "keyPath": "keyPath",
   "post_activity": {
     "update_scheduled_at": "Update Scheduled At"
+  },
+  "service": {
+    "mastodon": {
+      "description": "Mastodon is a free, open-source social network server based on ActivityPub."
+    }
   }
 }

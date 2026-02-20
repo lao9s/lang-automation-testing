@@ -9,5 +9,6 @@
     <p>{{ $t('general.welcome_message') }}</p>
     <p>{{ $t('general.people') }}</p>
     <p>{{ $t('general.alo') }}</p>
+    <p>{{ $t('service.mastodon.description') }}</p>
   </div>
 </template>

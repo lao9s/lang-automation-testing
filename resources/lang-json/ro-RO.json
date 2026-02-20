@@ -6,13 +6,20 @@
     "hello_world": "hello_world"
   },
   "general": {
+    "alo": "Alo",
     "description": "Descriere principală",
     "name": "Nume și prenume",
+    "people": "Oameni",
     "title": "Titlu",
     "welcome_message": "Bine ați venit la aplicația noastră!"
   },
   "keyPath": "cale cheie",
   "post_activity": {
     "update_scheduled_at": "Actualizare programată la"
+  },
+  "service": {
+    "mastodon": {
+      "description": "Mastodon este un server de rețea socială gratuit, open-source, bazat pe ActivityPub."
+    }
   }
 }
